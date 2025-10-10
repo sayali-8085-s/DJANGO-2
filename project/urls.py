@@ -25,7 +25,10 @@ urlpatterns = [
 
     path('home/<int:pk>/', views.home, name='home',),
     
-    path('home1/<str:pk>/', views.home1, name='home',),
-    path('home2/<slug:pk>/', views.home2, name='home',),
-      path('home3/', views.home3, name='home',),
+    path('home1/<str:pk>/', views.home1, name='home1',),
+    path('home2/<slug:pk>/', views.home2, name='home2',),
+    #   path('home3/', views.home3, name='home',),
+       path('home4/', views.home4, name='home4',),
+        path('home5/', views.home5, name='home5',),
 ]
+
